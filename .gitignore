@@ -1,0 +1,9 @@
+# Current project
+__pycache__/
+.vscode
+
+.env
+.venv
+
+data/db
+data/db_backup

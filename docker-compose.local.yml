@@ -1,0 +1,9 @@
+version: '3.3'
+
+services:
+  bot:
+    restart: unless-stopped
+    ports: ["5001:5001"]
+  db:
+    restart: unless-stopped
+    ports: ["5435:5432"]
